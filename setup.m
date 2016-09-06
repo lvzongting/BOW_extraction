@@ -2,5 +2,6 @@
 % if not find mexopencv.make ,please run the following cmd in the bash
 % make MATLABDIR=/usr/local/matlab 
 % and then rerun this m file
+mkdir('+cv')
 addpath(genpath('.'))
 mexopencv.make
